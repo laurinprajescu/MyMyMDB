@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.views.generic import (ListView, DetailView,)
+from django.views.generic import (
+	ListView, DetailView,
+	)
 from core.models import Movie
 
 class MovieDetail(DetailView):
